@@ -1,0 +1,42 @@
+body{
+    background: rgb(69, 248, 150);
+    
+}
+
+.contenedor{
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    border: 2px red solid;
+    height: 10%;
+}
+.tarjeta1{
+    
+    border: 3px blue solid;
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.card{
+    border: 1px yellow solid;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-tittle {
+    background: rgba(1,1,1,.5);
+    width: fit-content;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column-reverse;
+}
+a {
+    background-color: powderblue;
+    transition: background-color .5s;
+  }
+  
+ 
