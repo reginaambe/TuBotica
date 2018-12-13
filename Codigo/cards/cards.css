@@ -43,3 +43,86 @@ a {
      background: red;
      
  }
+
+ 
+.tarjeta1 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("http://www.elcolombiano.com/documents/10157/0/580x372/0c3/580d365/none/11101/CTAC/image_content_24757609_20151120191648.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+   
+   
+}
+
+.heads {
+    margin-bottom: 0px;
+}
+
+.textotarjeta {
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    background-color: rgba(255, 248, 244, 0.8);
+    color: rgb(94, 94, 94);
+   
+}
+
+
+.tarjeta2 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("https://www.natursan.net/wp-content/eucalipto-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;  
+}
+
+.tarjeta3 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("https://sevilla.abc.es/gurme//wp-content/uploads/2011/04/beneficiosdelajo-1440x810.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;  
+}
+
+.tarjeta4 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("https://www.cuerpomente.com/medio/2018/04/09/beneficios-del-jengibre_cfbf7167_1280x644.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;  
+}
+
+.tarjeta5 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("https://mejorconsalud.com/wp-content/uploads/2018/04/romero-descubre-sus-increibles-beneficios.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;  
+}
+
+.tarjeta6 {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 800px;
+    background-image: url("https://verdeaurora.com/wp-content/uploads/2017/10/FOTO-10-1.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-radius: 10px;  
+}
