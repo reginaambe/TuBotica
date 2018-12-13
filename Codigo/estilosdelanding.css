@@ -31,8 +31,9 @@
 }
 
 .LogoTuBotica{
-  display: flex;
-  align-content: center;
+  display: block;
+  margin-top: 168px;
+  margin-left: 493px;
   width: 270px;
   height: 200px;
 }
@@ -43,7 +44,3 @@ display: block;
 margin: auto;
 }
 
-.LogoTuBotica{
-display: block;
-margin: auto;
-}
