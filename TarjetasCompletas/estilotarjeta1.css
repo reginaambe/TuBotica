@@ -1,0 +1,31 @@
+body {
+    background: #FFF8F4;
+}
+
+.navbar{
+    background: #FFF8F4;
+
+}
+.logo{
+    height: 90px;
+    width: 120px;
+}
+
+.tarjeta1 {
+    display: block;
+    margin: auto;
+    width: 800px;
+    background-image: url("https://www.hogarmania.com/archivos/201808/aceite-lavanda-XxXx80.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat; 
+    border-radius: 10px;
+   
+}
+
+.textotarjeta {
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    background-color: rgba(255, 248, 244, 0.5);
+    color: rgb(94, 94, 94);
+}
