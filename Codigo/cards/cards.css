@@ -6,7 +6,7 @@ body{
 .contenedor{
     display: inline-block;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border: 2px red solid;
     height: 10%;
 }
@@ -39,4 +39,7 @@ a {
     transition: background-color .5s;
   }
   
- 
+ .boton{
+     background: red;
+     
+ }
