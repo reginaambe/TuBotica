@@ -57,3 +57,13 @@ margin: auto;
   opacity: 0.7;
 }
 
+#dropmenudearriba{
+  background: gray;
+  opacity:0.6;
+}
+
+#dropmenudeabajo{
+  background: gray;
+  opacity:0.8;
+}
+
