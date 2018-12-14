@@ -44,3 +44,16 @@ display: block;
 margin: auto;
 
 }
+
+.navbar{
+  opacity: 1;
+}
+
+/* #NavMenu{
+  color: gray;
+} */
+
+.btn{
+  opacity: 0.7;
+}
+
