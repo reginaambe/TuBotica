@@ -1,3 +1,16 @@
+<<<<<<< HEAD
+body {
+    background: #FFF8F4;
+}
+
+.navbar{
+    background: #FFF8F4;
+
+}
+.logo{
+    height: 90px;
+    width: 120px;
+=======
 body{
     background:  #FFF8F4;
     
@@ -27,23 +40,13 @@ body{
 .card-tittle {
     
     width: fit-content;
+>>>>>>> 7aba94189f56070d51d07f2d2acdc45f1beca000
 }
 
-.card-img-overlay {
-    display: flex;
-    flex-direction: column-reverse;
+.btn {
+    background-color: #D8F4D6;
 }
-a {
-    background-color: powderblue;
-    transition: background-color .5s;
-  }
-  
- .boton{
-     background: red;
-     
- }
 
- 
 .tarjeta1 {
     display: block;
     margin: auto;
@@ -69,7 +72,6 @@ a {
     color: rgb(94, 94, 94);
    
 }
-
 
 .tarjeta2 {
     display: block;
