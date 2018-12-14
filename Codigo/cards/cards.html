@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 
 <head>
     <!-- Required meta tags -->
@@ -9,30 +9,121 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="cards.css">
 
-    <title></title>
+    <title>Hello, world!</title>
 </head>
 
 <body>
-    <nav class="navegacion">
-        <img src="tuboticaLogo.001.png" alt="" height="100px">
+
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">
+        </a>
     </nav>
 
+    <div class="container">
+        <div class="row">
+            <!-- tarjeta 1 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="http://www.elcolombiano.com/documents/10157/0/580x372/0c3/580d365/none/11101/CTAC/image_content_24757609_20151120191648.jpg" alt="Manzanilla">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal1" style="background-color: #D8F4D6">
+                            Manzanilla
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-   <!-- contenedor 1 -->
-    <div class="contenedor">
-        <!-- planta 1 -->
-        <div class="card bg-dark text-white" class="tarjeta1">
-            <img class="card-img" src="manzanilla.jpg" alt="manzanilla">
-            <div class="card-img-overlay">
+            <!-- tarjeta 2 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.natursan.net/wp-content/eucalipto-1.jpg" alt="Eucalipto">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal2" style="background-color: #D8F4D6">
+                            Eucalipto
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- tarjeta 3 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://sevilla.abc.es/gurme//wp-content/uploads/2011/04/beneficiosdelajo-1440x810.jpg" alt="Ajo">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal3" style="background-color: #D8F4D6">
+                            Ajo
+                        </button>
+                    </div>
+                </div>
+            </div>
 
-                <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+            <!-- tarjeta 4 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://www.cuerpomente.com/medio/2018/04/09/beneficios-del-jengibre_cfbf7167_1280x644.jpg" alt="Jengibre">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal4" style="background-color: #D8F4D6">
+                            jengibre
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta 5 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://mejorconsalud.com/wp-content/uploads/2018/04/romero-descubre-sus-increibles-beneficios.jpg" alt="Romero">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#modal5" style="background-color: #D8F4D6">
+                            Romero
+                    </div>
+                </div>
+            </div>
+
+            <!-- tarjeta 6 -->
+            <div class="col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="https://verdeaurora.com/wp-content/uploads/2017/10/FOTO-10-1.png" alt="Sabila">
+                    <div class="card-body">
+                        <p class="card-text"></p>
+                        <button type="button" class="btn" style="background-color: #D8F4D6" data-toggle="modal" data-target="#modal6">
+                            Sabila
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- inicio de modales por tarjeta -->
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Manzanilla</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" >
+                    <img style="width: 34vw;" src="http://www.elcolombiano.com/documents/10157/0/580x372/0c3/580d365/none/11101/CTAC/image_content_24757609_20151120191648.jpg" alt="">
+                    
                         <div class="tarjeta1">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Manzanilla</h2>
-                                    <h5 class="nomcient">Matricaria Recutita</h5>
+                                    <!-- <h2 class="titulo">Manzanilla</h2> -->
+                                    <h5 class="nomcient">Matricaria recutita</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -59,24 +150,33 @@
                                     <h7 class="textos"> ¿Dónde comprarla?</h7>
                                 </div>
                         
-                            </div>   
+                            </div>
                 </div>
-                <!-- aqui termina la tarjeta grande -->
-
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
-
         </div>
+    </div>
 
-        <!-- planta2 -->
-        <div class="card bg-dark text-white" class="tarjeta1">
-            <img class="card-img" src="lavanda.jpg" alt="manzanilla">
-            <div class="card-img-overlay">
-                <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+    <!-- Modal 2 -->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="modal2"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Eucalipto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 34vw;" src="https://www.natursan.net/wp-content/eucalipto-1.jpg" alt="">
                         <div class="tarjeta2">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Eucalipto</h2>
-                                    <h5 class="nomcient">Eucaliyptus Globulus</h5>
+                                    <!-- <h2 class="titulo">Eucalipto</h2> -->
+                                    <h5 class="nomcient">Eucaliyptus globulus</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -105,21 +205,32 @@
                                 </div>
                         
                             </div>
-                    </div>
-                <!-- aqui termina la tarjeta grande -->
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
         </div>
+    </div>
 
-        <!-- planta3 -->
-        <div class="card bg-dark text-white" class="tarjeta1">
-            <img class="card-img" src="manzanilla.jpg" alt="manzanilla">
-            <div class="card-img-overlay">
-                <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+    <!-- Modal 3 -->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="modal3"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> Ajo</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                        <img style="width: 34vw;" src="https://sevilla.abc.es/gurme//wp-content/uploads/2011/04/beneficiosdelajo-1440x810.jpg" alt="">
                         <div class="tarjeta3">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Ajo</h2>
-                                    <h5 class="nomcient">Allium Sativum</h5>
+                                    <!-- <h2 class="titulo">Ajo</h2> -->
+                                    <h5 class="nomcient">Allium sativum</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -148,26 +259,32 @@
                                 </div>
                         
                             </div>
-                    </div>
-                <!-- aqui termina la tarjeta grande -->
+                </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
         </div>
-
-        
     </div>
 
-    <!-- contenedor 2 -->
-    <div class="contenedor">
-            <!-- planta 4 -->
-            <div class="card bg-dark text-white" class="tarjeta1">
-                <img class="card-img" src="manzanilla.jpg" alt="manzanilla">
-                <div class="card-img-overlay">
-                   <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+    <!-- Modal 4 -->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="modal4"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Jengibre</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 34vw;" src="https://www.cuerpomente.com/medio/2018/04/09/beneficios-del-jengibre_cfbf7167_1280x644.jpg" alt="">
                         <div class="tarjeta4">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Jergibre</h2>
-                                    <h5 class="nomcient">Zingiber Officinale</h5>
+                                    <!-- <h2 class="titulo">Jergibre</h2> -->
+                                    <h5 class="nomcient">Zingiber officinale</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -195,22 +312,32 @@
                                 </div>
                         
                             </div>
-                    </div>
-                <!-- aqui termina la tarjeta grande -->
                 </div>
-    
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
-    
-            <!-- planta5 -->
-            <div class="card bg-dark text-white" class="tarjeta1">
-                <img class="card-img" src="lavanda.jpg" alt="manzanilla">
-                <div class="card-img-overlay">
-                    <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="modal5"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Romero</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 34vw;" src="https://mejorconsalud.com/wp-content/uploads/2018/04/romero-descubre-sus-increibles-beneficios.jpg" alt="">
                         <div class="tarjeta5">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Romero</h2>
-                                    <h5 class="nomcient">Rosmarinus Officinalis</h5>
+                                    <!-- <h2 class="titulo">Romero</h2> -->
+                                    <h5 class="nomcient">Rosmarinus officinalis</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -238,21 +365,32 @@
                                 </div>
                         
                             </div>
-                    </div>
-                <!-- aqui termina la tarjeta grande -->
                 </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
-    
-            <!-- planta6 -->
-            <div class="card bg-dark text-white" class="tarjeta1">
-                <img class="card-img" src="manzanilla.jpg" alt="manzanilla">
-                <div class="card-img-overlay">
-                    <!-- aqui empieza la tarjeta grande -->
-                <a onclick="return blmostrocult(this);" style="cursor: hand; cursor: pointer;" class="boton">TITULO</a><div style="display: none;">
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="modal6"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Aloe vera</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img style="width: 34vw;" src="https://verdeaurora.com/wp-content/uploads/2017/10/FOTO-10-1.png" alt="">
                         <div class="tarjeta6">
                                 <div class="textotarjeta">
-                                    <h2 class="titulo">Sábila</h2>
-                                    <h5 class="nomcient">Aloe Barbadensis</h5>
+                                    <!-- <h2 class="titulo">Sábila</h2> -->
+                                    <h5 class="nomcient">Aloe barbadensis</h5>
                                     <h5 class="usos">
                                         Usos:
                                     </h5>
@@ -276,18 +414,16 @@
                                 </div>
                         
                             </div>
-                        
-                    </div>
-                <!-- aqui termina la tarjeta grande -->
                 </div>
+                <!-- <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div> -->
             </div>
-    
-            
         </div>
+    </div>
 
- 
 
-    <script src="main.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
