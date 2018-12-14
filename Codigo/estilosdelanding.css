@@ -14,6 +14,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -33,14 +34,25 @@
 .LogoTuBotica{
   display: block;
   margin-top: 168px;
-  margin-left: 493px;
-  width: 270px;
-  height: 200px;
+  margin-left: 461px;
+  width: 340px;
+  height: 250px;
+
 }
 
 .navbaryBoton{
 width: 300px;
 display: block;
-margin: auto;
+margin-left: 8px; 
+
 }
+
+.form-control {
+  opacity: 0.5;
+  margin-right: 8px;
+  margin-left: 36px;
+  height: 39px;
+  width: 205px;
+}
+
 
