@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     background: #FFF8F4;
 }
@@ -9,6 +10,37 @@ body {
 .logo{
     height: 90px;
     width: 120px;
+=======
+body{
+    background:  #FFF8F4;
+    
+}
+
+.contenedor{
+    display: inline-block;
+    display: flex;
+    justify-content: space-around;
+    height: 10%;
+}
+.tarjeta1{
+    
+  
+    align-content: center;
+    justify-content: center;
+    
+}
+
+.card{
+    border-radius: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.card-tittle {
+    
+    width: fit-content;
+>>>>>>> 7aba94189f56070d51d07f2d2acdc45f1beca000
 }
 
 .btn {

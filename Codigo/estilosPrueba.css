@@ -33,14 +33,27 @@
 .LogoTuBotica{
   display: block;
   margin-top: 168px;
-  margin-left: 493px;
+  margin-left: 40%;
   width: 270px;
   height: 200px;
 }
 
-.navbaryBoton{
-width: 300px;
+#dropdownMenuButton{
+width: 150px;
 display: block;
 margin: auto;
+
+}
+
+.navbar{
+  opacity: 1;
+}
+
+/* #NavMenu{
+  color: gray;
+} */
+
+.btn{
+  opacity: 0.7;
 }
 
