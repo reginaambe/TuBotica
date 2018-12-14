@@ -39,7 +39,7 @@
 }
 
 #dropdownMenuButton{
-width: 150px;
+width: 164px;
 display: block;
 margin: auto;
 
@@ -54,6 +54,10 @@ margin: auto;
 } */
 
 .btn{
-  opacity: 0.7;
+  opacity: 0.9;
 }
 
+#dropmenudeabajo{
+  background: gray;
+  opacity: 0.8;
+}
