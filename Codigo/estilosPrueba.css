@@ -32,14 +32,13 @@
 
 .LogoTuBotica{
   display: block;
-  margin-top: 168px;
+  margin-top: 10%;
   margin-left: 40%;
-  width: 270px;
-  height: 200px;
+  width: 20%;
 }
 
 #dropdownMenuButton{
-width: 164px;
+width: 13%;
 display: block;
 margin: auto;
 
