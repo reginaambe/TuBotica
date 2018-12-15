@@ -8,7 +8,11 @@ body{
 }
 
 .text-center {
-    margin: 30px;
+    margin: 2%;
+}
+
+.row {
+    padding-left: 12%;
 }
 
 .quienessomos{
@@ -18,14 +22,19 @@ body{
 }
 
 .card-group {
-    width: 1200px;
+    width: 20%;
   
+}
+
+.card-body {
+    
 }
 
 .card-img-top {
     width: 100px;
     left: 200px;
     border-radius:150px;
+    margin-left: 10%;
 }
 
 .card {
